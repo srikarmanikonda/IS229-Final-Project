@@ -1,0 +1,154 @@
+
+.contactContainer {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+  }
+  
+  .contactContainer h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1e272e;
+    border-bottom: 2px solid #00a8ff;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Form styling */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+  }
+  
+  .required {
+    color: red;
+    margin-left: 0.25rem;
+  }
+  
+  .contactForm input[type='text'],
+  .contactForm input[type='email'],
+  .contactForm textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contactForm input[type='text']:focus,
+  .contactForm input[type='email']:focus,
+  .contactForm textarea:focus {
+    border-color: #00a8ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 168, 255, 0.3);
+  }
+  
+
+  
+  /* Submit Button */
+  .submitButton {
+    background-color: #00a8ff;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #007bb5;
+    transform: translateY(-2px);
+  }
+  
+  /* Status Message */
+  .statusMessage {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #28a745;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contactContainer {
+      padding: 1.5rem;
+    }
+  
+    .contactContainer h2 {
+      font-size: 1.75rem;
+    }
+  
+    .contactForm input,
+    .contactForm textarea {
+      font-size: 0.9rem;
+    }
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #00a8ff;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color:#fff
+    
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    left:20px;
+    margin: 5;
+    padding: 0;
+  }
+  
+  .navLinks li {
+    display: inline;
+  }
+  
+  .navLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navLinks a:hover {
+    color: #000;
+  }
