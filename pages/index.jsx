@@ -42,7 +42,7 @@ export default function Home() {
           Explore the pages above via the navigation bar to learn more about my project!
         </p>
         
-        {/* Image component */}
+    
         <Image 
           src="/bitcoin.png" 
           alt="Bitcoin" 
